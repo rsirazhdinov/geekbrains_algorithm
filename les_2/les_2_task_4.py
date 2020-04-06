@@ -9,6 +9,6 @@ s = 0
 
 for i in range(n):
     s += a
-    a = a / 2
+    a = - a / 2
 
 print('Сумма n первых членов последовательности: {}'.format(s))
