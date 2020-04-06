@@ -7,7 +7,6 @@
 x = input('Введите число: ')
 count_event = 0
 count_odd = 0
-i = 0
 for i in range(len(x)):
     if int(x[i]) % 2 == 0:
         count_event += 1
